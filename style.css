@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.GRID-produtos{
+    display: flex;
+    position: relative;
+    text-align:center;
+}
+.produtos{
+    width: 80%;
+    margin: auto;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    
+
+
+}
+.produtos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 200px 20px;
+}
+
+.btn{
+    padding: 10px 100px;
+    width: 50px;
+    color: rgb(255, 255, 255);
+    background: #fcfcfc;
+    border: none;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 4rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.btn:hover{
+    background: #095803;
+    transition: background 1s;
+    
+}
+
+nav{
+    position: relative;
+    display: flex;
+    background-color:#327e95;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    padding: 0 130px;
+    margin: -10px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-transform: uppercase;
+    display:block;
+    
+    
+}
+
+
+.banner1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    
+}
+.banner2{
+display: flex;
+position: relative;
+margin-top: 3rem;
+margin-left: 25rem;
+}
+.banner3{
+display: flex;
+position: relative;
+margin-left: 76rem;
+bottom: 14rem;
+}
+  
+.logo{
+display: flex;
+position: relative;
+margin-left: 45rem;
+
+}
+
+.footer.footer{
+    background:#327e95;
+    text-align: center;
+    justify-content: center;
+}
+
+.fale-conosco a{
+    text-decoration: none;
+    }
+
+.contato{
+    text-align: center;
+    margin-right: 100rem;
+    margin-top: 10rem;
+}
+
+.footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+.footer h2{
+    color: #fff;
+}
+.footer p{
+    font-size: 15px;
+    color: bisque;
+}
+.rede-sociais{
+    color: #fff;
+    align-items: center;
+    margin-left: 100rem;
+}
+.rede-sociais .fa-facebook-f{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    color: #073446;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rede-sociais .fa-facebook-f:hover{
+    color: #fff;
+    transform: translateY(-9px);
+}
+
+.rede-sociais .fa-instagram{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    color: #073446;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rede-sociais .fa-instagram:hover{
+    color: #fff;
+    transform: translateY(-9px);
+}
+.rede-sociais .fa-twitter{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    color: #073446;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rede-sociais .fa-twitter:hover{
+    color: #fff;
+    transform: translateY(-9px);
+}
+.texto-copy{
+    color: aquamarine;
+    text-align: center;
+}

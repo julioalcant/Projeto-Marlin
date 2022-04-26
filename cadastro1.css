@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+nav{
+    position: relative;
+    display: flex;
+    background-color:#327e95;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    padding: 0 130px;
+    margin: -10px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-transform: uppercase;
+    display:block;
+    
+    
+}
+.logo{
+    display: flex;
+    position: relative;
+    margin-left: 45rem;
+    
+    }
+
+.cForm{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    border: 8px solid #327e95;
+    border-radius: 20px;
+    margin-top: 3rem;
+
+}
+
+
+.form ,input{
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #327e95;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.form ,input:focus{
+background-color: #327e95;
+transition: background .3s;
+}
+
+.footer.footer{
+    background:#327e95;
+    text-align: center;
+    justify-content: center;
+}
+
+.fale-conosco a{
+    text-decoration: none;
+    }
+
+.contato{
+    text-align: center;
+    margin-right: 100rem;
+    margin-top: 10rem;
+}
+
+.footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+.footer h2{
+    color: #fff;
+}
+.footer p{
+    font-size: 15px;
+    color: bisque;
+}
+.rede-sociais{
+    color: #fff;
+    align-items: center;
+    margin-left: 100rem;
+
+}
+.rede-sociais .fa-facebook-f{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    color: #073446;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rede-sociais .fa-facebook-f:hover{
+    color: #fff;
+    transform: translateY(-9px);
+}
+
+.rede-sociais .fa-instagram{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    color: #073446;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rede-sociais .fa-instagram:hover{
+    color: #fff;
+    transform: translateY(-9px);
+}
+.rede-sociais .fa-twitter{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    color: #073446;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rede-sociais .fa-twitter:hover{
+    color: #fff;
+    transform: translateY(-9px);
+}
+.texto-copy{
+    color: aquamarine;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
